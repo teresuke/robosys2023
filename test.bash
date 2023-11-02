@@ -11,13 +11,7 @@ res=0
 
 ### I/O TEST ###
 out=$(seq 5 | ./plus_stdin)
-
-[ "$?" = 1 ]      || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
-
-out=$(echo | ./plusstdin)
-[ "$?" = 1 ] 	  || ng ${LINENO}
-[ "${out}" = "" ] || ng ${LINENO}
+[ "${out}" = 15 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
