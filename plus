@@ -4,7 +4,6 @@
 
 
 import sys
-import h
 def add(a,b):
 h=a+b
 print(h)
