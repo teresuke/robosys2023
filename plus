@@ -16,6 +16,6 @@ for line in sys.stdin:
         ans += float(line)
         ant *= float(line)
     
-print(ans)
-print(ant)
+print(合計の値は＝ans)
+print(階乗した値はant)
 
