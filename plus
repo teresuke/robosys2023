@@ -19,5 +19,3 @@ for line in sys.stdin:
 print(ans)
 print(ant)
 
-print(float(sys.argv[3]) + float(sys.argv[4]))
-
