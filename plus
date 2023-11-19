@@ -16,6 +16,7 @@ for line in sys.stdin:
         ans += float(line)
         ant *= float(line)
     if ant < 1:
-        return 1
+        return 1;
 print(ans)
+print(ant)
 
