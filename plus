@@ -6,7 +6,7 @@
 import sys
 
 ans = 0
-ant = 0
+ant = 1
 
 for line in sys.stdin:
     try:
@@ -15,8 +15,7 @@ for line in sys.stdin:
     except:
         ans += float(line)
         ant *= float(line)
-    if ant < 1:
-        return 1;
+    
 print(ans)
 print(ant)
 
