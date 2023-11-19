@@ -10,7 +10,10 @@ ant=0
 for line in sys.stdin:
     try:
         ans += int(line)
+        ant *= int(line) 
     except:
         ans += float(line)
+        ant *= float(line)
 
 print(ans)
+print(ant)
