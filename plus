@@ -5,17 +5,17 @@
 
 import sys
 
-def sum(x,y)
-    q = x+y
-    return q
 ans = 0
-
+ant = 0
 
 for line in sys.stdin:
     try:
-        ans += int(line) 
+        ans += int(line)
+        ant *= int(line)
     except:
         ans += float(line)
-
+        ant *= float(line)
+    if ant < 1
+    return 1
 print(ans)
 
