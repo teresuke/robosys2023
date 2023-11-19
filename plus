@@ -15,7 +15,7 @@ for line in sys.stdin:
     except:
         ans += float(line)
         ant *= float(line)
-    if ant < 1
+    if ant < 1:
     return 1
 print(ans)
 
