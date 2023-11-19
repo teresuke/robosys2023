@@ -7,6 +7,8 @@ import sys
 
 ans = 0
 ant=0
+
+ant = [1,2,3,4,5]
 for line in sys.stdin:
     try:
         ans += int(line)
@@ -16,4 +18,4 @@ for line in sys.stdin:
         ant *= float(line)
 
 print(ans)
-print(ant)
+print(ant[0::2])
