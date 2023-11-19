@@ -4,6 +4,9 @@
 
 
 import sys
+def add(a,b):
+h=a+b
+return h
 
 ans = 0
 ant = 1
