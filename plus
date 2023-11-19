@@ -5,7 +5,7 @@
 
 import sys
 def add(a,b):
-return a + b
+print(a+b)
 
 ans = 0
 ant = 1
