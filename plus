@@ -18,4 +18,4 @@ for line in sys.stdin:
         ant *= float(line)
 
 print(ans)
-print(ant[0::2 ])
+print(ans[0:4])
