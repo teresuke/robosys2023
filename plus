@@ -19,18 +19,5 @@ for line in sys.stdin:
 print(ans)
 print(ant)
 
-def hiki(a,b):
-    h = a - b
-    print(h)
-    return h
-
-def kae(a,b):
-    i = a * b
-    print(i)
-    return i
-
-def kae(a,b):
-    j = a / b
-    print(j)
-    return j
+print(float(sys.argv[3]) + float(sys.argv[4]))
 
