@@ -13,7 +13,7 @@ ant = 1
 a=3
 b=6
 
-for line in range(a,b):
+for line in range(a,b+1):
     try:
         ans += int(line)
         ant *= int(line)
