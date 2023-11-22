@@ -10,9 +10,10 @@ import sys
 ans = 0
 ant = 1
 
+a=3
+b=6
 
-
-for line in sys.stdin:
+for line in range(a,b):
     try:
         ans += int(line)
         ant *= int(line)
