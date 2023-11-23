@@ -19,6 +19,4 @@ for line in range(a,b+1):
         ans += float(line)
         ant *= float(line)
     
-print(ans)
-print(ant)
-
+print(ans,ant)

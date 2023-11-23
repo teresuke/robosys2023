@@ -12,10 +12,8 @@ res=0
 ### I/O TEST ###
 #out=$(seq 5 | ./plus_stdin)
 
-str = "18\n360\n"
-
 out=$(./plus)
-[ "${out}" = "$str" ] || ng ${LINENO}
+[ "${out}" = "18 360" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
