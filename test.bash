@@ -12,11 +12,7 @@ res=0
 ### I/O TEST ###
 #out=$(seq 5 | ./plus_stdin)
 
-str = 
-"
-18
-360
-"
+str = "18\n360\n"
 
 out=$(./plus)
 [ "${out}" = "$str" ] || ng ${LINENO}
