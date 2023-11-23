@@ -18,7 +18,7 @@ str =
 360
 "
 
-out=$(./plus_stdin)
+out=$(./plus)
 [ "${out}" = "$str" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
