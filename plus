@@ -10,12 +10,21 @@ ant = 1
 
 a=3
 b=6
-
+c=a-1#追加した関数
 for line in range(a,b+1):
     try:
-        ans += (line)
-        ant *= (line)
+        c=c+1#cが足されていくのをカウントしていく
+        print(c)#kokokara
+        #if a < b:  
+        #print(+)
+        #elif a = b:
+        #print(=)
+        #else:
+        #return 0#kokomade
+        ans += int(line)
+        ant *= int(line)
     except:
+        c=c+1#cが足されていくのをカウントする
         ans += float(line)
         ant *= float(line)
     
