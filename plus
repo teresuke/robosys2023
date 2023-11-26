@@ -5,27 +5,36 @@
 
 import sys
 
-ans = 0
-ant = 1
+s = 0
+t = 1
 
 a=3
-b=6
-c=a-1#追加した関数
-for line in range(a,b+1):
+b=a+2
+a < b
+c=a-1
+for y in range(a,b+1):
     try:
-        #c=c+1#cが足されていくのをカウントしていく
-        #print(c)#kokokara
-        #if a < b:  
-        #print(+)
-        #elif a = b:
-        #print(=)
-        #else:
-        #return 0#kokomade
-        ans += int(line)
-        ant *= int(line)
+        c=c+1
+        s=s+float(y)
+        t=t*float(y)
+        
     except:
-        #c=c+1#cが足されていくのをカウントする
-        ans += float(line)
-        ant *= float(line)
-    
-print(ans,ant)
+        c=c+1
+        s += int(y)
+        t *= int(y)
+
+
+if a+1 == b:
+    print(a,c,s,t)
+elif a+2 == b:
+    print(a,c-1,c,s,t)
+#elif a+3 == b:
+    ##print(a,c-2,c-1,c,s,t)
+    ##print(c-2,c-1,c,s-a,t/a)
+    ##print(c-1,c,s-(a+(a+1)),t/(a*(a+1)))
+elif a+2 < b:
+    print(a,a+1,a+2,c,s,t)
+
+
+
+
