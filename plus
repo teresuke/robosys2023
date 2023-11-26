@@ -28,10 +28,6 @@ if a+1 == b:
     print(a,c,s,t)
 elif a+2 == b:
     print(a,c-1,c,s,t)
-#elif a+3 == b:
-    ##print(a,c-2,c-1,c,s,t)
-    ##print(c-2,c-1,c,s-a,t/a)
-    ##print(c-1,c,s-(a+(a+1)),t/(a*(a+1)))
 elif a+2 < b:
     print(a,a+1,a+2,c,s,t)
 
