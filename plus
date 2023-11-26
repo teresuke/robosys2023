@@ -9,7 +9,7 @@ s = 0
 t = 1
 
 a=3
-b=a+2
+b=6
 a < b
 c=a-1
 def f(a,b):
@@ -27,13 +27,14 @@ for y in range(a,b+1):
         t *= int(y)
 
 
-#if a+1 == b:
- #   print(a,c,s,t,f(a,b))
-if a+2 == b:
+if a+1 == b:
+   print(a,c,s,t,f(a,b))
+elif a+2 == b:
     print(a,c-1,c,s,t,f(a,b))
-#elif a+3 < b:
- #   print(a,a+1,a+2,c,s,t,f(a,b))
-#else:
+elif a+2 < b:
+    print(a,a+1,a+2,c,s,t,f(a,b))
+else:
+    print()
     
 
 
