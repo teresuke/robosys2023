@@ -9,7 +9,8 @@ s = 0
 t = 1
 
 a=3
-b=6
+b=7
+
 a < b
 c=a-1
 def f(a,b):
@@ -35,8 +36,7 @@ elif a+2 == b:
     print(c-1,c,s-a,t/a)
 elif a+2 < b:
     print(a,a+1,a+2,c,s,t,f(a,b))
-    print(c-2,c-1,c,s-a,t/a)
-  
+    print(a+1,a+2,c,s-a,t/a)
 
 
 
