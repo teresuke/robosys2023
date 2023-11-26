@@ -13,8 +13,9 @@
 このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 参考文献➀　(https://yang.amp.i.kyoto-u.ac.jp/~yyama/Ubuntu/application/Python.html)
 京都大学より数値計算にPythonコードを書くために必要なことをまとめたコードである。
-参考文献➁　(https://ryuichiueda.github.io/my_slides/robosys2022/lesson4.html#/)
-こちらは上田隆一先生のコードを参考にした。
+参考文献➁　(https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html#/)
+参考文献➂　(https://ryuichiueda.github.io/my_slides/robosys_2022/lesson3.html#)
+こちらの参考文献➁と参考文献➂は上田隆一先生のコードを参考にした。
 このパッケージは、○○サン由来のコード(○○)を利用しています。
 このパッケージのコードは、下記のスライド()のものを、本人の許可を得て自身の著作としたものです。
 引用したコードを書く
