@@ -13,7 +13,7 @@ res=0
 #out=$(seq 5 | ./plus_stdin)
 
 out=$(./plus)
-[ "${out}" = "18 360" ] || ng ${LINENO}
+[ "${out}" = "3 4 5 18 360" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
