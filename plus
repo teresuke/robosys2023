@@ -36,9 +36,7 @@ elif a+2 == b:
 elif a+2 < b:
     print(a,a+1,a+2,c,s,t,f(a,b))
     print(c-2,c-1,c,s-a,t/a)
-else:
-    print()
-    
+  
 
 
 
