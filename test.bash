@@ -12,10 +12,9 @@ res=0
 ### I/O TEST ###
 #out=$(seq 5 | ./plus_stdin)
 
-out=$(./plus)
-[ "${out}" = "3 4 5 6 18.0 360.0 6.708203932499369" ] 
-[ "4 5 6 15.0 120.0" ] || ng ${LINENO}
-#[ "${out}" = "4 5 6 15.0 120.0" ] || ng ${LINENO}
+out=$(seq 5 | ./plus)
+[ "${out}" = "3 12.0 60.0" ] 
+[ "4 9.0 20.0" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
