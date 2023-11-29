@@ -1,7 +1,7 @@
 # robosys2023
 課題１
 # plusコマンド
-[![test](https://github.com/teresuke/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/teresuke/robosys2023/actions/workflows/test.yml)
+* [![test](https://github.com/teresuke/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/teresuke/robosys2023/actions/workflows/test.yml)
 最初の文章では、合計のところに1からa-1までの合計の値を引き、階乗のところに1からa-1までかけた値を割っていく.
 次の文章では最初にaの値を1から合計しているので、合計のところにaまでの合計の値を引き、階乗のところにaまでかけた値を割る.
 
@@ -13,7 +13,7 @@
 
 ④4から値までを階乗して計算
 
-3と4から標準入力した値を計算する。
+* 3と4から標準入力した値を計算する。
 
 
 
