@@ -33,7 +33,6 @@ $ seq 5 | ./plus
 
 ```
 $ git clone https://github.com/teresuke/robosys2023.git
-
 $ cd robosys2023
 ```
 
