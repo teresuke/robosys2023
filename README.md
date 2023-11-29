@@ -20,6 +20,7 @@
 
 ##実行例
 *seq 5 | ./plus
+
 3 12.0 60.0
 *4 9.0 20.0
 
@@ -42,6 +43,8 @@
 
 *参考文献➀　(https://yang.amp.i.kyoto-u.ac.jp/~yyama/Ubuntu/application/Python.html)
 京都大学より数値計算にPythonコードを書くために必要なことをまとめたコードである. 
+このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます.
+©　2023 Shunsuke Otani
 
 このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます.
 このパッケージは、3条件BSDライセンスのもとryuichiueda/emcl由来のコード( © 2022 Ryuichi Ueda)を利用しています.
