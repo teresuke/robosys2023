@@ -1,4 +1,4 @@
-# plusコマンド
+## plusコマンド
 
 [![test](https://github.com/teresuke/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/teresuke/robosys2023/actions/workflows/test.yml)
 
@@ -27,7 +27,7 @@ $ seq 5 | ./plus
 4 9.0 20.0
 ```
 
-# リポジトリの使用方法
+## リポジトリの使用方法
 
 以下のコマンドを順に入力してください
 
