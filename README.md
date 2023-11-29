@@ -22,7 +22,7 @@
 *seq 5 | ./plus
 
 *3 12.0 60.0
-*4 9.0 20.0
+4 9.0 20.0
 
 # リポジトリの使用方法
 * ➀https://github.com/teresuke/robosys2023.git
