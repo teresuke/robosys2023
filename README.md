@@ -51,6 +51,6 @@ $ cd robosys2023
 
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます.
 * このパッケージのコードは、本人の許可を得て自身の著作としたものです.
-        * (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+         (https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * ©　2023 Shunsuke Otani
 
