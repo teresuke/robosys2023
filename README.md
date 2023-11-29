@@ -4,6 +4,7 @@
 [![test](https://github.com/teresuke/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/teresuke/robosys2023/actions/workflows/test.yml)
 最初の文章では、合計のところに1からa-1までの合計の値を引き、階乗のところに1からa-1までかけた値を割っていく.
 次の文章では最初にaの値を1から合計しているので、合計のところにaまでの合計の値を引き、階乗のところにaまでかけた値を割る.
+
 ➀3から値までを合計して計算
 
 ➁3から値までを階乗して計算
@@ -19,8 +20,8 @@
 
 ##実行例
 *seq 5 | ./plus
-	3 12.0 60.0
-*	4 9.0 20.0
+3 12.0 60.0
+*4 9.0 20.0
 
 # リポジトリの使用方法
 * ➀https://github.com/teresuke/robosys2023.git
