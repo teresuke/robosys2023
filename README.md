@@ -20,13 +20,13 @@
 
 標準入力からseq nを読み込み以下の値を算出する
 
-1行目:( $\sum\limits_{k=3}^n k )
+1行目:( $\sum\limits_{k=3}^n k$ )
 
-2行目:( ${_n \mathrm{P}_2 } )
+2行目:( ${_n \mathrm{P}_2 }$ )
 
-3行目:( $\sum\limits_{k=4}^n k )
+3行目:( $\sum\limits_{k=4}^n k$ )
 
-4行目:( ${_n \mathrm{P}_3 } )
+4行目:( ${_n \mathrm{P}_3 }$ )
 
 
 
