@@ -43,7 +43,7 @@ $ seq 5 | ./plus
 
 以下を順に入力してください
 
-クローンしてからディレクトリに移動して実行する。
+クローンしてからディレクトリに移動してコマンドを実行する。
 ```
 $ git clone https://github.com/teresuke/robosys2023.git
 $ cd robosys2023
